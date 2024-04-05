@@ -1,0 +1,82 @@
+@media screen and (max-width: 768px) {
+    #footer {
+        width: calc(100% - 4rem);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 6rem;
+        padding: 3.4rem 2rem 0 2rem;
+    }
+    #footer>.sections>.social-links-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        max-width: 50%;
+        width: 20rem;
+
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #footer>.sections {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        padding-bottom: 5rem;
+        gap: 2rem;
+    }
+    #footer>.sections>.all-features>.features, #footer>.sections>.all-features>.features>.other-features {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1rem;
+        text-align: left;
+        font-size: 0.8rem;
+        font-weight: 600;
+        min-width: 10rem;
+    }
+    #footer>.sections>.social-links-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        max-width: 80%;
+        width: 20rem;
+    }
+}
+@media screen and (max-width: 520px) {
+    #footer>.footer-bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin: 2rem 0;
+        gap: 1rem;
+    }
+    #footer>.sections>.social-links-section>.social-media-icons{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 1.5rem;
+        gap: 1.8rem;
+    }
+    #footer>.sections>.social-links-section>.social-media-icons>a{
+        text-decoration: none;
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    #footer>.sections>.social-links-section>.social-media-icons>.fa-facebook{
+        text-decoration: none;
+        padding: 2px 3px 0 4px;
+    }
+}

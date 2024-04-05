@@ -1,0 +1,149 @@
+:root {
+    --primary-color: #ea4b8b;
+    --text-color: rgb(74, 74, 74);
+    --background-color: rgba(246, 246, 246, 0.721);
+    --border-color: rgba(0, 0, 0, 0.084);
+    --hover-color: rgba(74, 74, 74, 0.8);
+    --footer-text-color: rgba(0, 0, 0, 0.55);
+    --link-color: #b93469;
+    --black-color:rgb(0, 0, 0)
+  }
+#footer{
+    width: calc(100% - 8rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 6rem;
+    padding: 3.4rem 4rem 0 4rem;
+    background-color: var(--background-color);
+}
+#footer>.sections{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    border-bottom: 1px solid  var(--border-color);
+    padding-bottom: 5rem;
+    gap: 2rem;
+
+}
+#footer>.sections>.social-links-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    max-width: 24%;
+}
+#footer>.sections>.social-links-section>.logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+
+    font-family: "Pacifico", cursive;
+}
+#footer>.sections>.social-links-section>.text-one{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: 90%;
+    color: var(--text-color);
+}
+#footer>.sections>.social-links-section>.social-media-icons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 1.5rem;
+    gap: 1rem;
+}
+#footer>.sections>.social-links-section>.social-media-icons>a{
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+#footer>.sections>.social-links-section>.social-media-icons>.fa-facebook{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 0.9rem;
+    background-color: var(--text-color);
+    padding: 2px 3px 0 4px;
+}
+#footer>.sections>.all-features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem
+}
+#footer>.sections>.all-features>.features, #footer>.sections>.all-features>.features>.other-features{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-color);
+    min-width: 12rem;
+}
+/* #footer>.sections>.all-features>.features>.other-features{
+    margin: 0;
+} */
+#footer>.sections>.all-features>.features>.heading, #footer>.sections>.all-features>.features>.other-features>.heading{
+    color: var(--black-color);
+    font-weight: 700;
+}
+#footer>.sections>.all-features>.features>.other-features:nth-child(2)>.heading{
+    margin-top: 0.8rem;
+}
+#footer>.sections>.all-features>.features>.text, #footer>.sections>.all-features>.features>.other-features>.text{
+    position: relative;
+    cursor: pointer;
+}
+#footer>.sections>.all-features>.features>.text:hover::before, #footer>.sections>.all-features>.features>.other-features>.text:hover::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: var(--hover-color);
+    bottom: -1px;
+    left: 0;
+    animation: UnderlineAnimation 0.2s ease-in-out;
+}
+@keyframes UnderlineAnimation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+#footer>.footer-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: var(--footer-text-color);
+    font-weight: 600;
+    margin: 2rem 0;
+}
+#footer>.footer-bottom>.right-part-footer>span:nth-child(1){
+    color: var(--black-color);
+    font-weight: 700;
+}
+#footer>.footer-bottom>.right-part-footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.2rem;
+}
+#footer>.footer-bottom>.right-part-footer>a{
+    color: var(--link-color);
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin-left: 0.3rem;
+}

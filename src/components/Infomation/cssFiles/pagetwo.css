@@ -1,0 +1,159 @@
+#page-two{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#page-two>.logOutBtn{
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    z-index: 20;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ea4b8b;
+    color: #ea4b8b;
+    cursor: pointer;
+}
+#page-two>nav{
+    width: 100%;
+    text-align: left;
+    padding-top:2.8rem;
+    padding-left: 3.6rem;
+    font-size: 1.2rem;
+    color: #ea4b8b;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3.4rem;
+
+    font-family: "Pacifico", cursive;
+}
+#page-two>nav>.back-arrow{
+    width: 1rem;
+    height: 1rem;
+    background-color: rgb(235, 234, 234);
+    padding: 0.8rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#page-two>nav>.back-arrow>svg{
+    width: 1.2rem;
+    height: 1.2rem;
+    transform: rotate(90deg);
+    opacity: 0.8;
+}
+#page-two>.form-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 68%;
+    margin-top: 2.4rem;
+    text-align: left;
+    text-align: center;
+}
+#page-two>.form-page>.heading-one{
+    font-size: 2rem;
+    font-weight: 700;
+    width: 100%;
+}
+#page-two>.form-page>.text-one{
+    width: 100%;
+    font-size: 1rem;
+    color: rgb(109, 109, 109);
+    font-weight: 400;
+    margin-top: 0.8rem;
+}
+#page-two>.form-page>.text-two{
+    width: 100%;
+    font-size: 0.9rem;
+    color: rgb(34 34 34);
+    font-weight: 700;
+    margin-top: 2.8rem;
+}
+#page-two>.form-page>.options{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 6.4rem;
+    width: 100%;
+}
+#page-two>.form-page>.options>.option{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.178);
+    border-radius: 16px;
+    padding: 0.8rem 0 1.8rem 0;
+    width: calc(30%);
+    max-width: 280px;
+    max-height: 210px;
+}
+#page-two>.form-page>.options>.option>img{
+    width: auto;
+    height: 8rem;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+    position: relative;
+    z-index: 5;
+}
+#page-two>.form-page>.options>.option>label{
+    width: 70%;
+    font-size: 1rem;
+    font-weight: 700;
+}
+#page-two>.form-page>.options>.option>span{
+    width: 90%;
+    font-size: 0.8rem;
+    padding: 0.5rem 0;
+    font-weight: 600;
+    color: gray;
+    position: relative;
+    animation: textAnimation 0.5s ease-in-out;
+}
+
+#page-two>.form-page>.options>.option>input{
+    height: 1.4rem;
+    width: 1.4rem;
+    margin-top: 0.4rem;
+    opacity: 0.3;
+}
+#page-two>.form-page>.options>.option>input:checked{
+    height: 1.4rem;
+    width: 1.4rem;
+    margin-top: 0.4rem;
+    opacity: 1;
+    accent-color: #ea4b8b;
+}
+#page-two>.form-page>.options>.option>input:checked  img{
+    position: relative;
+    top: -5rem;
+}
+
+#page-two>.form-page>button{
+    padding: 0.65rem 5rem;
+    width: auto;
+    background-color: #ea4b8b69;
+    color: #fff;
+    border: none;
+    margin-top: 1.4rem;
+    outline: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#page-two>.form-page>.unfinish-button{
+    padding: 0.65rem 5rem;
+}
+#page-two>.form-page>button:hover{
+    background-color: #ea4b8b;
+}

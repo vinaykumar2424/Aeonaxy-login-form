@@ -1,0 +1,168 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #page-three>nav {
+        width: calc(100% - 2.4rem);
+        padding: 1.2rem 1.2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+    #page-three>nav>.nav-others {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    #page-three>nav>.nav-options {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    #page-three>nav>.nav-others>.input-span {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 35%;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #page-three>nav {
+        width: calc(100% - 2.4rem);
+        padding: 1.2rem 1.2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        gap: 1rem;
+    }
+
+    #page-three>nav>.nav-others {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    #page-three>nav>.nav-options {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #page-three>nav>.nav-others>.input-span>input {
+        width: calc(100% - 3rem);
+        padding: 0.5rem 1rem 0.5rem 2rem;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+        background-color: rgb(242, 242, 242);
+    }
+
+    #page-three>nav>.nav-others>.input-span>.search-icon {
+        position: absolute;
+        left: 0.6rem;
+        transform: rotate(-45deg);
+        font-size: 1.5rem;
+        color: rgb(135, 135, 135);
+    }
+
+    #page-three>nav>.nav-others>.input-span {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 77%;
+        position: relative;
+    }
+    #page-three>.texts>.text-four {
+        width: 85%;
+        font-weight: 600;
+        margin-top: 1.2rem;
+        color: #777777;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #page-three>nav>.nav-options {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #page-three>nav>.nav-others {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    #page-three>nav>.nav-others>.input-span {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 65%;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #page-three>nav>.nav-options {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #page-three>nav>.nav-others {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    #page-three>nav>.nav-others>.input-span {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 50%;
+        position: relative;
+    }
+    #page-three>.texts>.heading-one {
+        font-size: 1.6rem;
+        margin-top: 4.6rem;
+    }
+    #page-three>.texts>.text-one {
+        width: 100%;
+        font-weight: 600;
+        color: #777777;
+        font-size: 0.8rem;
+    }
+    #page-three>.texts>.text-two {
+        font-size: 0.8rem;
+    }
+    #page-three>.texts>.text-three {
+        font-size: 0.8rem;
+    }
+    #page-three>.texts>.text-four {
+        font-size: 0.8rem;
+        width: 100%;
+    }
+}

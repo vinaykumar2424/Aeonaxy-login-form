@@ -1,0 +1,204 @@
+#page-three{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#page-three>nav{
+    width: calc(100% - 2.4rem);
+    padding: 1.2rem 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+#page-three>nav>.nav-options{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+#page-three>nav>.nav-options>.logo-name{
+    font-family: "Pacifico", cursive;
+}
+#page-three>nav>.nav-options>.nav-option{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+    font-weight: 600;
+
+}
+#page-three>nav>.nav-others{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+#page-three>nav>.nav-others>.input-span{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+    position: relative;
+}
+#page-three>nav>.nav-others>.input-span>input{
+    width: calc(100% - 3rem);
+    padding: 0.5rem 1rem 0.5rem 2rem;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: rgb(242, 242, 242);
+}
+#page-three>nav>.nav-others>.input-span>.search-icon{
+    position: absolute;
+    left: 10%;
+    transform: rotate(-45deg);
+    font-size: 1.5rem;
+    color: rgb(135, 135, 135);
+}
+#page-three>nav>.nav-others>.bag-icon{
+    font-size: 1rem;
+    color: rgb(135, 135, 135);
+    cursor: pointer;
+    position: relative;
+}
+#page-three>nav>.nav-others>.bag-icon>a{
+    color: #c3c2c2;
+}
+#page-three>nav>.nav-others>.bag-icon>span{
+    position: absolute;
+    right: -5px;
+    bottom: -5px;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page-three>nav>.nav-others>.bag-icon>span>span{
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: #777777;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+
+}
+#page-three>nav>.nav-others>img{
+    height: 1.8rem;
+    width: 1.8rem;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#page-three>nav>.nav-others>button{
+    padding: 0.5rem 0;
+    width: auto;
+    background-color: #ea4b8b;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#page-three>nav>.nav-others>button>a{
+    padding: 0.5rem 0.8rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* texts css */
+#page-three>.texts{
+    display: flex;
+    width: calc(100% - 2rem);
+    padding: 0 1rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#page-three>.texts>.heading-one{
+    font-size: 2rem;
+    margin-top: 4.6rem;
+}
+#page-three>.texts>.email-icon{
+    font-size: 6rem;
+    margin-top: 0rem;
+    position: relative;
+}
+#page-three>.texts>.email-icon>a:first-child{
+    text-decoration: none;
+    color: #c3c2c2;
+    position: relative;
+}
+#page-three>.texts>.email-icon>span{
+    position: absolute;
+    right: -1.5rem;
+    top: 1rem;
+    background-color: #fff;
+    width: 2.8rem;
+    height: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+#page-three>.texts>.email-icon>span>span{
+    color: #fff;
+    background-color: #ea4b8b;
+    font-size: 1.8rem;
+    border-radius: 50%;
+    width: 2.2rem;
+    height: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page-three>.texts>.text-one{
+    width: 100%;
+    font-weight: 600;
+    color: #777777;
+}
+#page-three>.texts>.text-two{
+    width: 100%;
+    font-weight: 800;
+    margin-top: 1.2rem;
+}
+#page-three>.texts>.text-three{
+    width: 100%;
+    font-weight: 600;
+    margin-top: 1.2rem;
+    color: #777777;
+}
+#page-three>.texts>.text-four{
+    width: 62%;
+    font-weight: 600;
+    margin-top: 1.2rem;
+    color: #777777;
+}
+#page-three>.texts>.text-four>span{
+    color:#ea4b8b;
+    cursor: pointer;
+}
+#page-three>.texts>.text-four>span{
+    width: 100%;
+    font-weight: 600;
+    margin-top: 1.2rem;
+}
+#page-three>.texts>.text-five{
+    width: 100%;
+    font-weight: 600;
+    margin-top: 1.2rem;
+}
+#page-three>.texts>.text-five>span{
+    color:#ea4b8b;
+    cursor: pointer;
+}

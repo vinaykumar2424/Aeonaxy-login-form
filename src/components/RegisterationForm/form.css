@@ -1,0 +1,211 @@
+.form-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.form-page>.route-to-link {
+    position: absolute;
+    right: 4.2rem;
+    top: 1.8rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.form-page>.route-to-link>a {
+    color: #5454cd;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* left image secction css */
+.form-page>.left-img {
+    width: 45%;
+    height: 100%;
+    background-color: #f3d285;
+    /* opacity: 0.5; */
+}
+
+.form-page>.left-img {
+    width: calc(32% - 3.6rem);
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 3.6rem;
+}
+
+.form-page>.left-img>.login-form-left-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-left: -5%;
+}
+
+.form-page>.left-img>.logo {
+    margin-top: 3.3rem;
+    font-size: 1.5rem;
+    color: #7f5c12;
+    opacity: 0.8;
+
+    font-family: "Pacifico", cursive;
+}
+
+.form-page>.left-img>.heading-one {
+    margin-top: 1.5rem;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #7f5c12;
+    line-height: 1.6rem;
+}
+
+.form-page>.left-img>.art-by-text {
+    margin-top: 2rem;
+    color: #7f5c12;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.form-page>.left-img>.art-by-text>span {
+    text-decoration: underline;
+}
+
+/* right form css section*/
+.form-page>.form-side {
+    width: 68%;
+    height: calc(100% - 4.2rem);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 4.2rem;
+}
+
+.form-page>.form-side>form {
+    width: 45%;
+    height: 100%;
+    text-align: left;
+}
+
+.form-page>.form-side>form>h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.form-page>.form-side>form>.text-error {
+    color: #de5f63;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.form-page>.form-side>form>.input-fields {
+    width: 100%;
+    margin-top: 2.2rem;
+}
+
+.form-page>.form-side>form>.name-username-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.2rem;
+}
+
+.error-color {
+    background-color: #feeeee !important;
+    color: #de5f63 !important;
+}
+
+.form-page>.form-side>form>.input-fields>span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.form-page>.form-side>form>.input-fields>span>label {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.form-page>.form-side>form>.input-fields>span>input {
+    font-size: 1rem;
+    padding: 0.6rem 15px;
+    outline: none;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    border: none;
+    width: calc(100% - 30px);
+}
+
+.form-page>.form-side>form>.name-username-field>span>input {
+    width: auto;
+    font-size: 1rem;
+    padding: 0.6rem 15px;
+    outline: none;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    border: none;
+}
+
+.form-page>.form-side>form>.checkbox-field {
+    color: #898787;
+    font-size: 0.85rem;
+    font-weight: 600;
+    width: 82%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.form-page>.form-side>form>.checkbox-field>input {
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.3;
+    margin-top: -3px;
+    cursor: pointer;
+}
+
+.form-page>.form-side>form>.checkbox-field>label>span {
+    color: #5454cd;
+    cursor: pointer;
+}
+
+.form-page>.form-side>form>button {
+    padding: 0.65rem 3rem;
+    width: auto;
+    background-color: #ea4b8b;
+    color: #fff;
+    border: none;
+    margin-top: 1.9rem;
+    outline: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form-page>.form-side>form>.privacy-policy-message {
+    font-size: 0.65rem;
+    color: #a9a7a7;
+    font-weight: 500;
+    margin-top: 1.2rem;
+    width: 55%;
+}
+
+.form-page>.form-side>form>.privacy-policy-message>span {
+    color: #5454cd;
+    cursor: pointer;
+}
+
+form>div>span>input::placeholder {
+    color: rgb(169, 169, 169);
+    font-size: 0.85rem;
+    font-weight: 500;
+}

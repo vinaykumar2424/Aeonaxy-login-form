@@ -1,0 +1,81 @@
+@media screen and (min-width: 1024px) {
+    #page-two>.form-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 64rem;
+        margin-top: 2.4rem;
+        text-align: left;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+ 
+    #page-two>.form-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 48rem;
+        margin-top: 2.4rem;
+        text-align: left;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #page-two>.form-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: calc(100% - 2rem);
+        padding: 2.4rem 1rem;
+        margin-top: 0;
+        text-align: left;
+        text-align: center;
+    }
+    #page-two>.form-page>.options {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-top: 3.4rem;
+        padding-bottom: 10px;
+        width: 100%;
+        overflow-x: auto;
+        height: 325px;
+        scroll-behavior: smooth;
+        gap: 1.5rem;
+    }
+    #page-two>.form-page>.options>.option {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        border: 1px solid rgba(128, 128, 128, 0.178);
+        border-radius: 16px;
+        padding: 0.8rem 0 1.8rem 0;
+        width: calc(40rem);
+        max-width: 40rem;
+        max-height: 210px;
+    }
+    #page-two>nav {
+        width: 100%;
+        text-align: left;
+        padding-top: 2.8rem;
+        padding-left: 3.6rem;
+        font-size: 1.2rem;
+        color: #ea4b8b;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1.4rem;
+        font-family: "Pacifico", cursive;
+    }
+}
+
+/* @media screen and (max-width: 300px) {
+    
+} */
